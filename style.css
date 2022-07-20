@@ -1,0 +1,249 @@
+
+.Main{
+    margin: auto;
+    border: 1px solid white;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1366px;
+    height: 849px;
+    background: var(--unnamed-color-3d087b) 0% 0% no-repeat padding-box;
+    background: #3D087B 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+.Clock{
+    margin-top: 34px;
+    margin-left: 104px;
+    width: 204px;
+    height: 77px;
+    background: transparent url('img/clock_logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.timesetup{
+    margin-top: 50px;
+    margin-left: 104px;    
+    width: 566px;
+    height: 363px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.options{
+    position: absolute;
+    width: 10%;
+    height: 30px;
+    margin-top: -20px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+}
+.digitalclock{
+    background-color: white;
+    opacity: 1;
+    padding: 5px;
+    border: 1px solid;
+    position: absolute;
+    margin-top: -92px;
+    margin-left: 756px;
+    border-radius: 15px;
+    width: 546px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.digitalclock div{
+    background-color: #F6E2FF;
+    width: 70px;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    align-items: center;
+    color: #9140B5;
+}
+#Session{
+    background-color: #CB52F8;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.digitalclock span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #8A11BF;
+}
+.digital2{
+    border: 1px solid red;
+    margin-top: 55px;
+    margin-left: 766px;
+    width: 416px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.71;
+}
+.digital3{
+    border: 1px solid red;
+    margin-top: 67px;
+    margin-left: 785px;
+    width: 379px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.22;
+}
+.timer{
+    display: block;
+    margin-top: 13px;
+    margin-left: 19px;
+    width: 517px;
+    height: 335px;    
+    opacity: 1;
+}
+.timer img{
+    position: absolute;
+    margin-left: 20px;
+}
+.timer div{
+    margin-top: 15px;
+}
+#vertical{
+    border-left: 2px solid gray;
+    height: 40px;
+    margin-left: 35px;
+}
+.timer div span{
+    margin-left: 74px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3d087b);
+    text-align: left;
+    font: normal normal normal 18px/28px Manrope;
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;
+}
+.good{
+    margin-top: 27px;
+    margin-left: 100px;
+    width: 566px;
+    height: 77px;    
+    background: white;
+    border: 1px solid var(--unnamed-color-ededed);
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+}  
+.good1{
+    color: #3D087B;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 2rem;
+    opacity: 2.23;
+    font-family: 'Rubik Moonrocks', cursive;
+}  
+.grab{
+    margin-top: -440px;
+    margin-left: 750px;
+    width: 536px;
+    height: 118px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.grab div{
+    font-size: 1.8rem;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-top: 35px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-8e53f0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8E53F0;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.party{
+    padding-top: 5px;
+    /* border: 1px solid; */
+    margin-top: 354px;
+    margin-left:100px;
+    width: 359px;
+    height: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    position: relative;
+    font: normal normal 600 24px/38px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+}
+.party:hover{
+    /* contain: "Set Alarm"; */
+    background-image: linear-gradient(to left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+}
+.party:hover::before{
+    content: "Party Time!";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: var("Party Time!");
+    /* opacity: 2; */
+    margin-left: -190px;
+}
+.party:hover span{
+    display: none;
+}
+.photo{
+    margin-top: -370px;
+    margin-left: 757px;
+    width: 536px;
+    height: 341px;
+    background: transparent url('img/Component 30 – 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.table{
+    margin-top: -45px;
+    margin-left: 469px;
+    width: 180px;
+    height: 100px;     
+    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 13px/25px Manrope;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+}
+#note{
+    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal bold 15px/25px Manrope;
+    letter-spacing: 0px;
+    color: #B85EBF;
+    opacity: 1;
+    text-align: right;
+    margin-right: 25px;
+}
