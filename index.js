@@ -3,7 +3,7 @@ console.log("connecting");
 const hour = document.getElementById('hour')
 const minute = document.getElementById('minute')
 const seconds = document.getElementById('seconds')
-// const session = document.getElementById('session')
+const session = document.getElementById('session')
 
 const clock = setInterval(function time(){
     let element = new Date();
@@ -11,7 +11,7 @@ const clock = setInterval(function time(){
     let hr = element.getHours();
     let min = element.getMinutes();
     let sec = element.getSeconds();
-    // let sess = element.getsession();
+    // var ses = element.getSession();
 
     // console.log(hr, min, sec);
     if(hr <  10){
@@ -25,10 +25,6 @@ const clock = setInterval(function time(){
     if(sec <  10){
         sec = '0' + sec;
     }
-
-    // if(session > 12){
-    //     return(AM);
-    // }else(PM);
 
     hour.textContent = hr;
     minute.textContent = min;

@@ -41,11 +41,17 @@
     padding: 5px;
     text-align: center;
 }
+/* #hr{
+    font-size: 1rem;
+    opacity: 1;
+    margin-right: 10px;
+    border: 1px solid red;
+} */
 .digitalclock{
     background-color: white;
     opacity: 1;
     padding: 5px;
-    border: 1px solid;
+    /* border: 1px solid; */
     position: absolute;
     margin-top: -92px;
     margin-left: 756px;
@@ -80,21 +86,23 @@
     font-size: 40px;
     color: #8A11BF;
 }
-.digital2{
-    border: 1px solid red;
-    margin-top: 55px;
-    margin-left: 766px;
-    width: 416px;
+#digital2{
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top: -65px;
+    margin-left: 800px;
+    width: 456px;
     height: 130px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 0.71;
 }
-.digital3{
-    border: 1px solid red;
-    margin-top: 67px;
-    margin-left: 785px;
+#digital3{
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top: -47px;
+    margin-left: 839px;
     width: 379px;
     height: 130px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -152,7 +160,7 @@
     font-family: 'Rubik Moonrocks', cursive;
 }  
 .grab{
-    margin-top: -440px;
+    margin-top: -400px;
     margin-left: 750px;
     width: 536px;
     height: 118px;
