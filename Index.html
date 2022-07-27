@@ -24,7 +24,7 @@
         </div>
         <div class="timesetup">
             <div class="timer">
-                <div><img src="./img/wake_up.png"><span> Set wake up time</span>
+                <div><img id="changewakeup" src="./img/wake_up.png"><span> Set wake up time</span>
                     <select class="options" name="wake" id="wake">            
                         <option value="8" selected="selected">8 AM - 9 AM</option>
                         <option value="9">9 AM - 10 AM</option>
@@ -72,7 +72,7 @@
         </div>
         <div class="good"><div class="good1">GOOD MORNING!! WAKE UP !!</div></div>
         <div class="grab"><div>GRAB SOME HEALTHY BREAKFAST!!!</div></div>
-        <div class="party">
+        <div class="party" onclick="updateDiv()">
            <span> Set Alram</span>
         </div>
         <div class="photo">
@@ -80,10 +80,10 @@
         </div>
         <div class="table">
             <div>
-                <div>Wake Up Time : 10AM - 11AM</div>
-                <div>Lunch Time   : 12PM - 1PM</div> 
-                <div> Nap Time    : 4PM - 5PM</div>
-                <div> Night Time  : 8PM - 9AM</div>
+                <div>Wake Up Time : <span id="wakeShow"> 10AM - 11AM</span></div>
+                <div>Lunch Time   : <span id="lunchShow">12PM - 4PM</span></div> 
+                <div> Nap Time    : <span id="napShow">4PM - 5PM</span></div>
+                <div> Night Time  : <span id="nightShow">8PM - 9AM</span></div>
             </div>
         </div>
         <div id="note">Note: Go to Artboard 3(Assets) to see all the assets used in this project</div>

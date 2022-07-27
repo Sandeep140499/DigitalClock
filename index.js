@@ -32,3 +32,22 @@ const clock = setInterval(function time(){
     // session.textContent = session;
 
 },1000)
+
+function updateDiv(){
+    let wakeElem = document.getElementById('wake');
+    let lunchElem = document.getElementById('lunch');
+    let napElem = document.getElementById('evening');
+    let nightElem = document.getElementById('night');
+
+    document.getElementById('wakeShow').innerText = wakeElem.options[wakeElem.selectedIndex].text;
+
+        console.log(wakeElem.options);
+
+    document.getElementById('lunchShow').innerText = lunchElem.options[lunchElem.selectedIndex].text;
+
+    document.getElementById('napShow').innerText = napElem.options[napElem.selectedIndex].text;
+
+    document.getElementById('nightShow').innerText = nightElem.options[nightElem.selectedIndex].text;
+   
+}
+
