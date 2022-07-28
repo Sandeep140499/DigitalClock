@@ -11,6 +11,8 @@ const clock = setInterval(function time(){
     let hr = element.getHours();
     let min = element.getMinutes();
     let sec = element.getSeconds();
+    // let ampm = hr >= 12 ? 'pm' : 'am';
+    // var hours = element .getHours();
     // var ses = element.getSession();
 
     // console.log(hr, min, sec);
@@ -30,6 +32,37 @@ const clock = setInterval(function time(){
     minute.textContent = min;
     seconds.textContent = sec;
     // session.textContent = session;
+
+    if(hr>12)
+    {
+        document.getElementById('goodMsg').innerText = "Good morning Sir";
+        document.getElementById('eatMsg').innerText = "Running time";
+        document.getElementById('imageAt').src = "goodnight.png";
+
+    }
+    if(hr>16)
+    {
+        document.getElementById('goodMsg').innerText = "Good afternoon sir";
+        document.getElementById('eatMsg').innerText = " Your Lunch are Ready";
+        document.getElementById('imageAt').src = "goodafternoon.png";
+
+    }
+    if(hr>20)
+    {
+        document.getElementById('goodMsg').innerText = "Good Evening Sir";
+        document.getElementById('eatMsg').innerText = " Your Tea is Ready";
+        document.getElementById('imageAt').src = "goodevening.png";
+
+    }
+    if(hr>=20)
+    {
+        document.getElementById('goodMsg').innerText = "Good Night Sir";
+        document.getElementById('eatMsg').innerText = "Take good sleep";
+        document.getElementById('imageAt').src = "goodnight.png";
+
+    }
+
+   
 
 },1000)
 
